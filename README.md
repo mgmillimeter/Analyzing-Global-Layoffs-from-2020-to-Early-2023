@@ -25,6 +25,8 @@ Key areas of focus include:
 - **_Geographic Distribution_**: Analyzing how layoffs vary by country, reflecting economic health and policy impact.
 - **_Funding Stage Impact_**: Evaluating how a company's maturity affects its layoff decisions.
 
+---
+
 ## II. Data Structure Overview
 
 The layoffs dataset as seen below consists of 1 table: Layoffs_Dataset with a total row count of 1,343 records. 
@@ -34,59 +36,89 @@ The layoffs dataset as seen below consists of 1 table: Layoffs_Dataset with a to
 
 Each table provides different dimensions of the layoff data, with a total of approximately 400,000 layoffs recorded across various categories.
 
-**SQL Queries** for data analysis can be found [here](link-to-sql-file).
+**SQL Queries & Documentation** for data analysis can be found [here](https://github.com/mgmillimeter/Analyzing-Global-Layoffs-from-2020-to-Early-2023/blob/main/World's%20Layoffs.sql).
 
-**Interactive Dashboard** for visualizing this data can be accessed [here](link-to-tableau-dashboard).
+**Interactive Dashboard** for visualizing this data can be accessed [here](https://public.tableau.com/app/profile/martin.guiller.iii/viz/WorldsLayoffs/Dashboard1).
+
+![World's Layoffs Dashboard](https://github.com/user-attachments/assets/5fe7c5df-db81-4421-9286-7533b4ac4249)
+
+---
 
 ## III. Executive Summary
 
 ### Overview of Findings
 
-From 2020 to 2023, the data shows significant fluctuations in layoffs, with a peak in 2022. Here's a brief summary:
+From 2020 to 2023, the landscape of layoffs across various sectors and regions showed significant volatility, with distinct trends emerging:
 
 #### 1. **Layoffs by Year**
-   - **2022** saw the highest number of layoffs (153,111), possibly due to post-COVID economic adjustments or market corrections.
+
+- **2022** was a peak year for layoffs with **153,111 employees** affected, suggesting a post-COVID economic recalibration. This can be attributed to the end of government support programs, economic uncertainty, and companies adjusting to new market realities.[](https://www.statista.com/statistics/1127080/worldwide-tech-layoffs-covid-19-biggest/)[](https://news.crunchbase.com/startups/tech-layoffs/)
+- **2023** also recorded high layoffs but with a slight decrease from the previous year, indicating ongoing adjustments but at a moderated pace.[](https://news.crunchbase.com/startups/tech-layoffs/)
 
 #### 2. **Layoffs by Industry**
-   - **Retail, Transportation,** and **Consumer** industries topped the list, indicating sector-specific challenges or shifts.
+
+- **Retail** saw the highest number of layoffs, with over **32,000 employees** laid off in 2023 alone, largely due to shifts in consumer behavior and the integration of AI and automation.[](https://www.statista.com/statistics/1126955/worldwide-tech-layoffs-covid-19-industry/)
+- **Transportation** and **Consumer sectors** followed with **71,746 layoffs** from 2020 to 2023, driven by changes in demand, automation, and logistical restructuring.[](https://aceyourgrace.medium.com/the-numbers-dont-lie-which-country-and-industry-are-seeing-the-most-layoffs-since-covid-19-ab0d70cefed9)
+- **Healthcare, Education, and Finance** experienced fewer layoffs, likely due to their essential nature which sustained demand even during economic downturns.[](https://aceyourgrace.medium.com/the-numbers-dont-lie-which-country-and-industry-are-seeing-the-most-layoffs-since-covid-19-ab0d70cefed9)
 
 #### 3. **Layoffs by Company**
-   - Tech giants like **Amazon** and **Meta** led in layoff numbers, suggesting a recalibration after rapid expansion or economic downturn effects.
+
+- **Amazon** and **Meta** were among the leading tech companies in terms of layoffs, with Amazon cutting **27,410 jobs** and Meta **21,000** in 2023, reflecting strategic downsizing after aggressive hiring during the peak of the digital boom.[](https://www.nerdwallet.com/article/finance/tech-layoffs)
+- Other tech giants like **Google** and **Microsoft** also conducted significant layoffs, suggesting a broader industry trend towards efficiency and cost-cutting.[](https://www.visualcapitalist.com/americas-20-biggest-tech-layoffs-since-2020/)[](https://www.visualcapitalist.com/all-the-major-tech-layoffs-in-2024-so-far/)
 
 #### 4. **Layoffs by Country**
-   - The **United States** had the highest total layoffs, reflecting its large corporate landscape and economic volatility.
+
+- The **United States** experienced the most layoffs, with over **262,000 tech employees** laid off in 2023, indicative of its large tech sector and the economic pressures faced by major corporations headquartered there.[](https://www.nerdwallet.com/article/finance/tech-layoffs)
+- **India** also saw substantial layoffs, possibly due to its significant role in global tech operations and outsourcing.[](https://aceyourgrace.medium.com/the-numbers-dont-lie-which-country-and-industry-are-seeing-the-most-layoffs-since-covid-19-ab0d70cefed9)
 
 #### 5. **Layoffs by Funding Stage**
-   - **IPO companies** had the most layoffs, likely due to pressures from public markets or strategic restructuring.
 
-### Visual Insights
-The following dashboard snapshot provides a visual overview:
+- **Post-IPO companies** saw the highest volume of layoffs, with **80,000+** layoffs attributed to major companies like Amazon, Meta, and Google, pointing to pressures from public market expectations and shareholder demands for profitability.[](https://news.crunchbase.com/startups/tech-layoffs/)[](https://www.statista.com/statistics/1127080/worldwide-tech-layoffs-covid-19-biggest/)
+- **Startups**, particularly those in later funding stages (Series B and beyond), also faced layoffs as venture capital funding slowed, affecting their cash reserves and operational sustainability.[](https://news.crunchbase.com/startups/tech-layoffs/)
 
-![Dashboard Snapshot](link-to-dashboard-image)
+---
 
 ## IV. Recommendations
 
-### 1. **Economic Preparedness**
-   - Companies should prepare for economic fluctuations by diversifying their portfolios and maintaining flexible workforce strategies.
+**Layoffs by Year:**
 
-### 2. **Sector-Specific Strategies**
-   - Retail and transport sectors should focus on digital transformation and sustainability to mitigate future layoffs.
+- **Monitor Economic Indicators:** Regularly analyze economic signals such as GDP growth, unemployment rates, inflation, and consumer confidence indices. This will help predict when economic conditions might force another wave of layoffs, allowing for proactive measures like hiring freezes or strategic hiring in growth areas.
 
-### 3. **Company Stage Focus**
-   - Early-stage companies might benefit from more conservative growth strategies to avoid rapid expansion followed by downsizing.
+- **Diversify Business Models:** Companies should consider diversifying into less cyclical industries or services. This could involve expanding product lines, entering new markets, or incorporating service-based models that might be less vulnerable to economic swings.
 
-### 4. **Geographic Considerations**
-   - Businesses in high-layoff countries should consider policies for workforce retention or retraining programs.
+**Layoffs by Industry:**
 
-### 5. **Policy Advocacy**
-   - Policymakers should consider regulations or incentives that support job security, particularly in industries prone to economic shocks.
+- **Invest in Automation Strategically:** Automation should not only be about cost-cutting but also about enhancing productivity and service quality. Companies need to ensure that automation investments are part of a broader strategy that considers the long-term impact on workforce and customer satisfaction.
+
+- **Skill Upgrading Programs:** Implement internal training programs or partner with educational institutions to provide employees with new skills relevant to emerging job roles. This could include training in digital literacy, data analysis, or new operational technologies, helping to retain talent and adapt to industry changes.
+
+**Layoffs by Company:**
+
+- **Flexible Workforce Planning:** Move towards models like gig work, freelance, or part-time positions where feasible. This flexibility can help companies adjust workforce size according to demand without the need for permanent layoffs, maintaining a core of skilled workers who can be scaled up or down.
+
+- **Employee Retention Focus:** Develop a culture of trust and transparency. Implement programs for employee engagement, wellness, and career growth. A focus on retention can reduce voluntary turnover, preserving knowledge and skills within the company even during tough times.
+
+**Layoffs by Country:**
+
+- **Global Economic Strategy:** Understand and leverage global economic trends. For instance, if one economy is slowing down, look for opportunities in regions showing growth. This could mean setting up operations or increasing investments in those areas.
+
+- **Cultural and Regulatory Adaptation:** Adapting to local labor laws, cultural norms, and business practices can make workforce management during downturns more humane and legally compliant. This includes understanding severance expectations, notice periods, and cultural attitudes towards employment.
+
+**Layoffs by Funding Stage:**
+
+- **Funding Diversification:** Reduce reliance on venture capital by exploring crowdfunding, grants, or strategic alliances that might offer more stable or less dilutive funding. This approach can provide a financial cushion during downturns, reducing the pressure to cut jobs.
+
+- **Financial Conservatism Post-IPO:** After going public, companies should adopt a more conservative approach to spending and growth projections. This might include maintaining higher cash reserves, focusing on operational efficiency, and perhaps slower but sustainable growth to meet shareholder expectations without resorting to layoffs.
+
+**General Recommendation:**
+
+- **Predictive Analytics:** Use AI and machine learning to analyze internal and external data to forecast workforce needs. This could involve predicting skill shortages, identifying departments at risk, or anticipating market demand changes. Such insights enable HR to be proactive in workforce adjustments, potentially avoiding or minimizing layoffs by strategic redeployment or reskilling.
 
 ---
 
 ## V. References
 
-- Original dataset sourced from [here](link-to-original-dataset).
-- Dataset credits: [Your Name/Source]
-- Data analysis tools used: SQL, Tableau
+- Original dataset sourced from [here](https://www.kaggle.com/search?q=Layoffs+datasetFileTypes%3Acsv).
+- Data analysis tools used: BigQuerySQL, Tableau
 
 ---
